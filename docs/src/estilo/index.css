@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Oxanium:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', sans-serif;;
+    text-decoration: none; /* Remove a sublinhado padrão */
+    color: inherit; /* Herda a cor do texto do elemento pai (mantém a cor original do texto) */
+}
+ul {
+    list-style: none;
+}
+body {
+    background-color: rgb(196, 225, 244);
+}
+.apresentacao {
+    color: #F3F2F4;
+    font-size: 26px;
+    background-color: #024059;
+    width: 100%;
+    height: 70vh;
+    box-sizing: border-box;
+    padding: 50px;
+    border-bottom-left-radius: 50% 60px; 
+    border-bottom-right-radius: 50% 60px; }
+.sesi {
+    margin-top: -50px;
+    font-size: 19px;
+}
+.conteudo-apresentacao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 150px;
+}
+.textao {
+    margin-bottom: 50px;
+}
+.textinho{
+    text-align: center;
+    font-size: 30px;
+}
+.parte-de-cima {
+    box-sizing: border-box;
+    width: 82px;
+    height: 28px;
+    border: solid #FFF 1px;
+    padding-left: 2px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.parte-de-cima-2 {
+    box-sizing: border-box;
+    padding-top: 1px;
+    width: 82px;
+    height: 28px;
+    border: solid #FFF 1px;
+    padding-left: 5px;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.desenvolvimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-desenvolvimento {
+    color: #024059;
+    margin-top: 200px;
+    margin-bottom: -100px;
+}
+.texto-desenvolvimento {
+    color: #024059;
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    margin-left: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+.sobre-projeto .clica {
+    box-sizing: border-box;
+    width: 480px;
+    height: 100px;
+    padding-top: 20px;
+    border-top: solid #024059 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: solid #024059 5px;
+    border-right: solid #024059 5px;
+    border-bottom: solid #024059 5px;
+    margin-top: 400px;
+    color: #002e40;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    margin-top: 14px;
+}
+.selecionada .clica {
+    color: rgb(196, 225, 244);
+    background-color: #024059;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.rodape {
+    margin-top: 100px;
+    color: #002e40;
+    box-sizing: border-box;
+    border-left: solid #002e40 1px;
+    border-right: solid #002e40 1px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 200px;
+    font-size: 20px;
+}
+.conteudo-livros {
+    margin-top: 200px;
+}
+.conteudo-livros {
+    display: flex;
+    flex-direction: column;
+}
+.numerodelivro {
+    box-sizing: border-box;
+    background-color: #002e40;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    padding-left: 17px;
+}
+.livroum {
+    margin-bottom: 100px;
+}
+.livrodois {
+    margin-bottom: 60px;
+}
+.textolivro {
+    margin-top: 20px;
+    color: #024059;
+}
+.cliquelivro {
+    margin-left: 328px;
+    margin-top: 80px;
+    box-sizing: border-box;
+    border: solid #002e40 10px;
+    background-color: #05739e;
+    width: 340px;
+    height: 450px;
+    padding: 2px;
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+}
+.apresentarlivros {
+    margin-top: 140px;
+    margin-bottom: -20px;
+}
+.ola {
+    color: #002e40;
+    display: flex;
+    justify-content: center;
+}
+.alo {
+    color: #014b68;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    width: 1200px;
+    margin-top: 50px;
+}
