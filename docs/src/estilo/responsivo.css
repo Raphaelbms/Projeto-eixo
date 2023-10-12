@@ -1,14 +1,24 @@
-@media ( max-width: 790px) {
+@media ( max-width: 440px) {
     .apresentacao {
         color: #F3F2F4;
         font-size: 26px;
         background-color: #024059;
         width: 100%;
-        height: 110vh;
+        height: 60vh;
         box-sizing: border-box;
         padding: 50px;
         border-bottom-left-radius: 80% 60px; 
         border-bottom-right-radius: 80% 60px;
+    }
+    .sesi {
+        display: flex;
+        justify-content: center;
+    }
+    .textao {
+        font-size: 40px;
+    }
+    .textinho{
+        font-size: 20px;
     }
     .conteudo-apresentacao {
         display: flex;
@@ -16,10 +26,22 @@
         flex-direction: column;
         box-sizing: border-box;
         margin-top: 100px;
+        max-width: 600px;
+    }
+    .titulo-desenvolvimento {
+        font-size: 30px;
     }
     .texto-desenvolvimento {
-        padding-right: 30px;
-        max-width: 90vh;
+        margin-left: -2px;
+        max-width: 40vh;
+        font-size: 20px;
+    }
+    .sobre-projeto .clica {
+        max-width: 40vh;
+        margin-top: -10px;
+    }
+    .respocli {
+        margin-top: -15px;
     }
     .conteudo-livros .lista {
         display: flex;
@@ -39,5 +61,14 @@
     .lista .cliquelivro {
         margin-right: 320px;
     }
-    
+    .apresentarlivros {
+        box-sizing: border-box;
+        max-width: 400px;
+    }
+    .ola {
+        font-size: 20px;
+    }
+    .alo {
+        max-width: 400px;
+    }
 }
